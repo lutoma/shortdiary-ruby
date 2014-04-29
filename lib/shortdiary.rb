@@ -127,7 +127,7 @@ module Shortdiary
 			@password = args[1]
 
 			# Send & discard request to check login credentials
-			get_request('public/')
+			get_request('posts/1/')
 
 			nil
 		end
